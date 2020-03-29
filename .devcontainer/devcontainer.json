@@ -10,13 +10,12 @@
     "jakebecker.elixir-ls",
     "florinpatrascu.vscode-elixir-snippets",
     "zerokol.vscode-eex-beautify",
-    "ckolkman.vscode-postgres"
+    "ckolkman.vscode-postgres",
+    "editorconfig.editorconfig",
+    "mikestead.dotenv"
   ],
   "settings": {
-    "elixir.formatter": {
-      "formatterCwd": "../some/dir/to/run/mix/format/from"
-    },
-    "elixir.projectPath": "some",
+    "elixir.projectPath": "project-path",
     "editor.formatOnSave": true
   }
 }
