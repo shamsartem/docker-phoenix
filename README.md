@@ -4,8 +4,8 @@
 Install docker and docker-compose
 
 ## Motivation
-I wanted to have a starter kit for Phoenix projects that I would be able to run anywhere in docker
-Alpine linux is used for all the docker images
+I wanted to have a starter kit for Phoenix projects that I would be able to run anywhere in docker.
+Alpine linux is used for all the docker images.
 If you use vscode - all the necessary extensions for developing phoenix application will be installed automatically inside the container
 
 ## Set up for vscode users
