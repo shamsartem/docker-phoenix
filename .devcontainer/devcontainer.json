@@ -1,0 +1,22 @@
+{
+  "name": "Docker Phoenix",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/app",
+  "appPort": 4000,
+  "shutdownAction": "stopCompose",
+  "extensions": [
+    "mjmcloug.vscode-elixir",
+    "jakebecker.elixir-ls",
+    "florinpatrascu.vscode-elixir-snippets",
+    "zerokol.vscode-eex-beautify",
+    "ckolkman.vscode-postgres"
+  ],
+  "settings": {
+    "elixir.formatter": {
+      "formatterCwd": "../some/dir/to/run/mix/format/from"
+    },
+    "elixir.projectPath": "some",
+    "editor.formatOnSave": true
+  }
+}

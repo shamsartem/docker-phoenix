@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: sleep infinity
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/app
+      - ~/.gitconfig:/root/.gitconfig
+    depends_on:
+      - db
+  db:
+    image: postgres:10-alpine
