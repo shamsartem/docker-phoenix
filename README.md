@@ -13,7 +13,7 @@ If you use vscode - all the necessary extensions for developing phoenix applicat
 1. Install https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
 2. Open the folder in vscode and it should suggest you to reopen it inside the container
 3. After setting up the database you can add connection in postresql explorer (use hostname `db`, user and password from `.env` file)
-4. In devcontainer.json set elixir.projectPath to the folder with your project so elixir-ls extencion will start working 
+4. In `devcontainer.json` set `elixir.projectPath` and `elixirLS.projectDir` to the path to your project so elixir-ls extension starts working.
 
 ## Get started
 1. Start shell session inside the container. For vscode users - just open the terminal (Ctrl + J) - it will already be inside the container. For others - run e.g. `docker exec -it phoenix-docker_app_1 sh`

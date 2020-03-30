@@ -15,7 +15,8 @@
     "mikestead.dotenv"
   ],
   "settings": {
-    "elixir.projectPath": "project-path",
+    "elixir.projectPath": "./mix-project-folder",
+    "elixirLS.projectDir": "./mix-project-folder",
     "editor.formatOnSave": true
   }
 }
