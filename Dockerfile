@@ -4,7 +4,7 @@ RUN mix local.hex --force \
   && mix archive.install --force hex phx_new 1.4.16 \
   && mix local.rebar --force \
   && apk update \
-  && apk add npm inotify-tools git openssh ruby \
+  && apk add build-base npm inotify-tools git openssh ruby \
   && gem install htmlbeautifier
 
 ENV APP_HOME /app
