@@ -17,6 +17,12 @@
   "settings": {
     "elixir.projectPath": "./mix-project-folder",
     "elixirLS.projectDir": "./mix-project-folder",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "emmet.syntaxProfiles": {
+      "HTML (EEx)": "html"
+    },
+    "emmet.includeLanguages": {
+      "HTML (EEx)": "html"
+    }
   }
 }
