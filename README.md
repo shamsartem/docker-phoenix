@@ -2,7 +2,7 @@
 
 ## Prerequisites
 Install docker and docker-compose.
-Copy `.example.env` file and rename it to `.env`
+Duplicate `.example.env` file and rename it to `.env`
 
 ## Motivation
 I wanted to have a starter kit for Phoenix projects that I would be able to run anywhere in docker.
