@@ -18,7 +18,7 @@ If you use vscode - all the necessary extensions for developing phoenix applicat
 ## Get started
 1. Start shell session inside the container. For vscode users - just open the terminal (Ctrl + J) - it will already be inside the container. For others - run e.g. `docker exec -it phoenix-docker_app_1 sh`
 2. Create new phoenix project `mix phx.new your_project_name` and press enter to install dependencies when it prompts you
-3. To set up postgres open `config/dev.exs`, change database hostname to `"db"` and run `mix ecto.create` in your project folder
+3. To set up postgres open `config/dev.exs`, change hostname to `"db"`, database to `"database"` and run `mix ecto.create` in your project folder
 4. Run `iex -S mix phx.server`
 
 Open browser on `localhost:4000`
