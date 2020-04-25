@@ -23,6 +23,7 @@
     },
     "emmet.includeLanguages": {
       "HTML (EEx)": "html"
-    }
+    },
+    "vscode-eex-beautify.keepBlankLines": 1
   }
 }
