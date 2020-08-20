@@ -6,13 +6,12 @@
   "appPort": 4000,
   "shutdownAction": "stopCompose",
   "extensions": [
-    "mjmcloug.vscode-elixir",
     "jakebecker.elixir-ls",
     "florinpatrascu.vscode-elixir-snippets",
-    "zerokol.vscode-eex-beautify",
     "ckolkman.vscode-postgres",
     "editorconfig.editorconfig",
-    "mikestead.dotenv"
+    "mikestead.dotenv",
+    "emeraldwalk.RunOnSave"
   ],
   "settings": {
     "elixir.projectPath": "./mix-project-folder",
@@ -24,6 +23,17 @@
     "emmet.includeLanguages": {
       "HTML (EEx)": "html"
     },
-    "vscode-eex-beautify.keepBlankLines": 1
+    "emeraldwalk.runonsave": {
+      "commands": [
+        {
+          "isAsync": true,
+          "cmd": "mix format mix.exs \"lib/**/*.{ex,exs}\" \"test/**/*.{ex,exs}\""
+        },
+      ]
+    },
+    "files.associations": {
+      "*.eex": "eex",
+      "*.leex": "eex"
+    }
   }
 }
