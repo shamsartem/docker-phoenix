@@ -12,7 +12,7 @@ If you use vscode - all the necessary extensions for developing phoenix applicat
 ## Set up for vscode users
 1. Install https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
 2. Open the folder in vscode and it should suggest you to reopen it inside the container
-3. After setting up the database you can add connection in postresql explorer (use hostname `db`, user and password from `.env` file)
+3. After setting up the database (see the Get Started section to learn about that) you can add connection in postresql explorer. Use hostname `db`, user and password from `.env` file. If this doesn't work make sure gnome-keyring and libsecret are installed.
 4. In `devcontainer.json` set `elixir.projectPath` and `elixirLS.projectDir` to the path to your project so elixir-ls extension starts working.
 
 ## Get started
